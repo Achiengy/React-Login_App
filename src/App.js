@@ -3,8 +3,11 @@
  export default function App() {
   return(
     <div id="main">
+<div id="fields">
 <input placeholder="Email" />
-<input placeholder="Password" />
+<input type='password' placeholder="Password" />
+</div>
+<button onClick = {handleSignup}>Sign Up</button>
     </div>
   );
  }
